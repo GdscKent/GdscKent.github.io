@@ -132,12 +132,12 @@ html::-webkit-scrollbar-thumb{
 }
 
 .home .content{
-    flex:1 1 42rem;
+    flex:1 0 25rem;
 }
 
 .home .content h3{
     color:var(--black);
-    font-size: 4rem;
+    font-size: 3rem;
     line-height: 1.8;
 }
 
@@ -171,8 +171,8 @@ html::-webkit-scrollbar-thumb{
 
 .about .row .content h3{
     color:var(--black);
-    font-size: 3.5rem;
-    line-height: 1.8;
+    font-size: 3rem;
+    line-height: 1.4;
 }
 
 .about .row .content p{
@@ -203,8 +203,8 @@ html::-webkit-scrollbar-thumb{
 
 .question .row .content h3{
   color:var(--black);
-  font-size: 3.5rem;
-  line-height: 1.8;
+  font-size: 3rem;
+  line-height: 1.4;
 }
 
 .question .row .content p{
