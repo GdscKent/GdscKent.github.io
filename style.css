@@ -2,8 +2,7 @@
 
 
 
- 
-@media not|only medya-türü all (max-width:480px ) {
+
 :root{
     --blue:#0abde3;
     --black:#130f40;
@@ -346,4 +345,4 @@ html::-webkit-scrollbar-thumb{
     }
 
 }
-}
+
