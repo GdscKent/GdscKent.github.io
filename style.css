@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 
+
+
+ 
+@media not|only medya-türü all (max-width:480px ) {
 :root{
     --blue:#0abde3;
     --black:#130f40;
@@ -341,4 +345,5 @@ html::-webkit-scrollbar-thumb{
         font-size: 50%;
     }
 
+}
 }
