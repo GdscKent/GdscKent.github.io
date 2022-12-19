@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 
 
-
-
 :root{
     --blue:#0abde3;
     --black:#130f40;
@@ -349,19 +347,20 @@ html::-webkit-scrollbar-thumb{
 #linkedin,
 #instagram,
 #whatsapp,
-#discord{
+#discord,
+#youtube{
     font-size: 5em;
     background-color: #0abde3;
     color:#fff;
     box-shadow: 2px 2px 2px #00000080 5px 1px 12px #00000080,
-    2px 2px 5px #00000080, 2px 2px 3px #00000080, inset 2px 2px 5px #00000080,
-    inset 2px 2px 5px #00000080,inset 2px 2px 5px #00000080,
+    2px 2px 5px #00000080, 2px 2px 3px #00000080, 2px 2px 3px #00000080, inset 2px 2px 5px #00000080,
+    inset 2px 2px 5px #00000080,inset 2px 2px 5px #00000080, inset 2px 2px 5px #00000080
     inset 2px 2px 5px #00000080;
     border-radius: 10px;
     padding: 5px 5px;
     margin:0 5px;
     animation: animate 3s linear infinite;
-    text-shadow: 0 0 5px #0072ff, 0 0 5px #0072ff, 0 0#0072ff,
+    text-shadow: 0 0 5px #0072ff, 0 0 5px #0072ff, 0 0#0072ff, 0 0#0072ff,
     0 0 5px #0072ff;
 }
 
@@ -376,6 +375,9 @@ html::-webkit-scrollbar-thumb{
 #whatsapp{
     animation-delay: 0.3s
 }
+#discord{
+    animation-delay: 0.7s;
+}
 
 @keyframes animate {
     from{
@@ -385,4 +387,3 @@ html::-webkit-scrollbar-thumb{
         filter: hue-rotate(360deg);
     }
 }
-
